@@ -5,11 +5,12 @@
     margin: 0;
 }
 
-/* sets main */
+/* sets main background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/* styles header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* style for company name in heading */
 header h1 {
     display: inline-block;
     font-size: 50px;
 }
 
+/* colors seo portion in company name in heading to be grey */
 header h1 span {
     color: #9ba198;
 }
 
+/* positions and styles nav links in heading */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,15 +38,18 @@ header nav {
     font-size: 20px;
 }
 
+/* removes bullet points from list in nav bar */
 header nav ul {
     list-style-type: none;
 }
 
+/* positions links in nav par */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets color of link in nav bar and removes any link styling */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -73,12 +80,14 @@ p {
     margin-left: 25px;
 }
 
+/* style for main info card section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* style for the benefits information */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,16 +99,19 @@ p {
     background-color: #2589bd;
 }
 
+/* styles spacing between each benefit information */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* styles heading in benefit information section */
 .benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* style for each image in benefit */
 .benefit-section img {
     display: block;
     margin: 10px auto;
@@ -124,6 +136,7 @@ p {
     font-size: 36px;
 }
 
+/* styling for footer section */
 .footer {
     padding: 30px;
     clear: both;
