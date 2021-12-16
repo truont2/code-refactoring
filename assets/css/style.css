@@ -56,13 +56,14 @@ a {
     font-size: 25px;
 }
 
+/* styles p text */
 p {
     font-size: 25px;
     line-height: 1.25;
 }
 
 /* class used to display main background image */
-.hero {
+.background_image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -71,11 +72,13 @@ p {
     background-position: center;
 }
 
+/* moves elements to the left side of a container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* moves elements to the right side of its container */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -119,6 +122,7 @@ p {
     max-width: 150px;
 }
 
+/* style for main page content */
 .info-cards {
     margin-bottom: 20px;
     padding: 50px;
