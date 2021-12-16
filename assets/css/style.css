@@ -1,42 +1,44 @@
+/* universal selector, erases any default styling of elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets main */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 50px;
 }
 
-.header h1 .seo {
-    color: #979995;
+header h1 span {
+    color: #9ba198;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -47,9 +49,11 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 1.25;
 }
 
+/* class used to display main background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -82,7 +86,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
@@ -102,20 +106,20 @@ p {
     max-width: 150px;
 }
 
-.main-page-content {
+.info-cards {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-.main-page-content img {
+.info-cards img {
     max-height: 200px;
 }
 
-.main-page-content h2 {
+.info-cards h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
