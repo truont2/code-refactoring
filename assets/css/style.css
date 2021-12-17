@@ -11,6 +11,7 @@ body {
 }
 
 /* styles header */
+/* removed header class and referenced header element instead */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,6 +26,7 @@ header h1 {
 }
 
 /* colors seo portion in company name in heading to be grey */
+/* changed to darker grey text for better contrast */
 header h1 span {
     color: #9ba198;
 }
@@ -63,6 +65,7 @@ p {
 }
 
 /* class used to display main background image */
+/* renamed class to be more descriptive compared to hero */
 .background_image {
     height: 800px;
     width: 100%;
@@ -85,13 +88,15 @@ p {
 }
 
 /* style for main info card section */
-.content {
+/* renamed class */
+.main_content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /* style for the benefits information */
+/* consolidated three classes for each section into one */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,6 +109,7 @@ p {
 }
 
 /* styles spacing between each benefit information */
+/* consolidated the styling of the benefits section into one class */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,6 +122,7 @@ p {
 }
 
 /* style for each image in benefit */
+/* consolidated the styling of the benefits section into one class */
 .benefit-section img {
     display: block;
     margin: 10px auto;
@@ -123,6 +130,7 @@ p {
 }
 
 /* style for main page content */
+/* consolidated the styling of the benefits section into one class */
 .info-cards {
     margin-bottom: 20px;
     padding: 50px;
@@ -132,6 +140,7 @@ p {
     color: #ffffff;
 }
 
+/* consolidated the styling of the benefits section into one class */
 .info-cards img {
     max-height: 200px;
 }
