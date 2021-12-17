@@ -8,9 +8,9 @@ The purpose of this project were to build skills such as setting up and deployin
 In the future, I hope to apply more responsive elements such as flexbox and @media to make future websites more accessible to mobile users and more responsive as well. 
 
 Screenshot of the webpage:
-![alt text](./assets/images/header_navbar.PNG)
-![alt text](./assets/images/main_content.PNG)
-![alt text](./assets/images/footer.PNG)
+![website screenshot](./assets/images/header_navbar.PNG)
+![website screenshot](./assets/images/main_content.PNG)
+![website screenshot](./assets/images/footer.PNG)
 
 
 Webpage link address:
